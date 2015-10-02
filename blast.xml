@@ -1,0 +1,13 @@
+<manifest>
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="blastbet-github" fetch="git://github.com/Blastbet" />
+  <remote name="openembedded" fetch="git://git.openembedded.org" />
+
+  <default revision="refs/heads/master" />
+
+  <project name="poky" remote="yocto" path="poky" revision="jethro" />
+  <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="jethro" />
+  <project name="meta-blastbet" remote="blastbet-github" path="poky/meta-blastbet" />
+
+</manifest>
