@@ -6,8 +6,12 @@
 
   <default revision="refs/heads/master" />
 
-  <project name="poky" remote="yocto" path="poky" revision="jethro" />
-  <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="jethro" />
+  <project name="poky" remote="yocto" path="poky"
+           revision="370a2916c4559c17952392b872322e8e490b124c" />
+  <project name="meta-fsl-arm" remote="yocto" path="poky/meta-fsl-arm"
+           revision="2f78ef1230481e0da690296a6a41330d7ffc4c13" />
+  <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded"
+           revision="c04f105227101977a0f5ed8d41dd6fbe71138eea" />
   <project name="meta-blastbet" remote="blastbet-github" path="poky/meta-blastbet" />
 
 </manifest>
